@@ -1,8 +1,9 @@
 Evaluation script news_evaluation.py reads transliteration results file and test file in XML format according to the specification in the NEWS 2010 whitepaper. The following metrics are calculated:
 1) ACC: Accuracy in top-1, or word error rate.
-2) Fuzziness in top-1, or mean F-score.
-3) Mean Reciprocal Rank (MRR)
-4) Mean Average Precision MAP_ref
+2) ACC@10: Accuracy in top-10
+3) Fuzziness in top-1, or mean F-score.
+4) Mean Reciprocal Rank (MRR)
+5) Mean Average Precision MAP_ref
 
 For detailed description of each metric please refer to the NEWS 2010 whitepaper.
 
